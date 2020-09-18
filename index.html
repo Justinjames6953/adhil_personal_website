@@ -491,12 +491,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="clearfix"> </div>
 			</div>
 			<div class="col-md-6 mail_right">
-				<form action="#" method="post">
+				<form action="https://script.google.com/macros/s/AKfycbwPNYRj2MvojvP1ssQriYPrWIYI1n0avvhi-y4rGA/exec"  class="gform" method="post">
 					<input type="text" name="Name" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
 					<input type="email" name="Email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
 					<input type="text" name="Mobile number" value="Mobile number" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Mobile number';}" required="">
 					<textarea name="Message..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required="">Message...</textarea>
 					<input type="submit" value="Send">
+
+					<div style="display:none" class="thankyou_message">
+						<!-- You can customize the thankyou message by editing the code below -->
+						<h2><em>Thanks</em> for contacting us! We will get back to you soon!
+						</h2>
+					   </div>
 					
 				</form>
 			</div>
@@ -714,6 +720,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<!--end-smooth-scrolling-->
 <!-- //for bootstrap working -->
 	<script src="js/bootstrap.js"></script>
+	<script data-cfasync="false" type="text/javascript" src="js/form.js"></script>
+
 	
 
 	</body>
